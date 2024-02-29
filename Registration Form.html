@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+        h1{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <form >
+        <label>First name:</label>         
+        <input type="text" name="firstname" size="15" > <br> <br>  
+        <label>Middle name:</label>     
+        <input type="text" name="middlename" size="15" > <br> <br>  
+        <label>Last name:</label>         
+        <input type="text" name="lastname" size="15" > <br> <br> 
+        <label>Course:</label>   
+<select>  
+<option value="Degree">DEGREE</option>  
+<option value="Polytechnic">POLYTECHNIC</option>  
+<option value="M.Tech">M.TECH</option>  
+<option value="B.Tech">B.Tech</option> 
+</select> <br> <br>  
+<label>Gender :</label><br>  
+<input type="radio" name="Male"> Male <br>  
+<input type="radio" name="Male"> Female <br>  
+<input type="radio" name="Male"> Other <br> <br> 
+<label for="phone number">Phone No.:</label>
+<input type="text" name="country code"  value="+91" size="2">   
+<input type="digits" name="phone" size="10"> <br> <br>
+<label>Email:</label>  
+<input type="email" id="email" name="email" required > <br> <br>  
+<label for="Password">Password:</label>
+<input type="Password" id="psw" name="psw"> <br> <br>  
+<label for="Re-type password:">Re-type password:</label>  
+<input type="Password" id="repsw" name="repsw"> <br> <br>  
+<button onclick="alert('Your registration is done')">Submit</button>
+<button>reset</button>
+    </form>
+</body>
+</html>
